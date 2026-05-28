@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesela Estudio - Cartografía Digital para la Gestión del Territorio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Main Presentation Container -->
+  <div id="presentation-container">
+    
+    <!-- Header with Logo -->
+    <header class="presentation-header glass-element">
+      <div class="header-logo-container">
+        <img src="Imagenes/Logo Tesela Estudio.png" alt="Tesela Estudio Logo" class="header-logo">
+        <span class="header-brand">Tesela Estudio</span>
+      </div>
+      <div class="header-slide-info">
+        <span id="header-slide-title">Portada</span>
+      </div>
+    </header>
+
+    <!-- Slides Wrapper -->
+    <div id="slides-wrapper">
+
+      <!-- Slide 1: Portada -->
+      <section class="slide active" id="slide-1" data-title="Portada">
+        <div class="slide-content cover-layout">
+          <div class="cover-card glass-card animate-fade-in">
+            <img src="Imagenes/Logo Tesela Estudio.png" alt="Tesela Estudio Logo Large" class="cover-logo">
+            <h1 class="gradient-text">Cartografía digital para la gestión del territorio</h1>
+            <p class="subtitle">Mapas colaborativos que conectan personas, empresas y administraciones para mejorar nuestras ciudades.</p>
+            <div class="cover-footer">
+              <span class="badge">Elevator Pitch</span>
+              <span class="badge">Santander X</span>
+            </div>
+          </div>
+        </div>
+        <div class="speaker-notes-content">
+          Presentación con logo de Tesela estudio.
+          Título: “Cartografía digital para la gestión del territorio”
+          Subtítulo: “Mapas colaborativos que conectan personas, empresas y administraciones para mejorar nuestras ciudades. “
+        </div>
+      </section>
+
+      <!-- Slide 2: El Origen - Contexto (Diapositiva 2) -->
+      <section class="slide" id="slide-2" data-title="1. El Origen - Universidad">
+        <div class="slide-content split-layout">
+          <div class="text-column">
+            <span class="slide-number">01</span>
+            <h2>El Origen</h2>
+            <h3 class="accent-text">Investigación y Urbanismo</h3>
+            <div class="glass-card text-card animate-slide-up">
+              <p>Como investigadores en el área de urbanismo y estudiantes de arquitectura, comprendimos la importancia de la relación entre el diseño urbano y la correcta gestión del territorio.</p>
+              <div class="accent-line"></div>
+              <p class="highlight-text">“Entender el espacio urbano es el primer paso para mejorarlo.”</p>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="image-frame animate-scale-in">
+              <img src="Imagenes/Diapositiva 2.1/huerta murcia.jpg" alt="Huerta de Murcia - Urbanismo" class="fit-image">
+              <div class="image-caption">Huerta de Murcia: Análisis territorial y urbanístico</div>
+            </div>
+          </div>
+        </div>
+        <div class="speaker-notes-content">
+          “1. El Origen
+          Hace unos años, Alfonso y yo estábamos trabajando como investigadores en el área de urbanismo de la Universidad, durante la carrera de arquitectura, donde empezamos a trabajar en el diseño urbano y la gestión del territorio."
+        </div>
+      </section>
+
+      <!-- Slide 3: El Origen - Frustración (Diapositiva 3) -->
+      <section class="slide" id="slide-3" data-title="1. El Origen - La Frustración">
+        <div class="slide-content split-layout">
+          <div class="text-column">
+            <span class="slide-number">02</span>
+            <h2>El Origen</h2>
+            <h3 class="accent-text">La Frustración Analógica</h3>
+            <div class="glass-card text-card animate-slide-up">
+              <ul>
+                <li><strong>Toma de datos a mano:</strong> Procesos lentos con papel y lápiz, propensos al error.</li>
+                <li><strong>Información congelada:</strong> Datos en cajones o discos duros sin actualizar.</li>
+                <li><strong>Realidad dinámica:</strong> El territorio cambia constantemente y la cartografía quedaba obsoleta.</li>
+              </ul>
+              <p class="highlight-box glass-element">De esta frustración, y con la intención de mejorar las cosas, nació <strong>Tesela Estudio</strong>.</p>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="split-images">
+              <div class="image-frame animate-scale-in delay-1">
+                <img src="Imagenes/Diapositiva 2.2/a mano 1.png" alt="Cartografía a mano 1" class="fit-image">
+                <div class="image-caption">Registro manual analógico</div>
+              </div>
+              <div class="image-frame animate-scale-in delay-2">
+                <img src="Imagenes/Diapositiva 2.2/a mano 2.png" alt="Cartografía a mano 2" class="fit-image">
+                <div class="image-caption">Bocetos y apuntes de campo</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="speaker-notes-content">
+          "Allí comenzamos a realizar las primeras cartografías tanto en el ámbito académico, como con empresas privadas dedicadas a la gestión de servicios urbanos. Al principio la toma de datos la hacíamos con papel y lápiz, casi de forma artesanal, lo que era un caos que acababa en un cajón o congelado en un disco duro mientras que la realidad que pretendía representar seguía en constante cambio, dejándonos la sensación agridulce de que al terminar, había que volver a empezar de nuevo.
+          De esta frustración, y con la intención de mejorar las cosas, nació Tesela Estudio.”
+        </div>
+      </section>
+
+      <!-- Slide 4: El Problema - Plataformas Nube (Diapositiva 4) -->
+      <section class="slide" id="slide-4" data-title="2. El Problema - Soluciones Existentes">
+        <div class="slide-content split-layout">
+          <div class="text-column">
+            <span class="slide-number">03</span>
+            <h2>El Problema</h2>
+            <h3 class="accent-text">Herramientas en la Nube</h3>
+            <div class="glass-card text-card animate-slide-up">
+              <p>Descubrimos la existencia de plataformas colaborativas en la nube que centralizaban datos cartográficos y permitían conectar dispositivos.</p>
+              <div class="metric-container">
+                <div class="metric-card glass-element">
+                  <span class="metric-value">0</span>
+                  <span class="metric-label">Pilas de papel físico</span>
+                </div>
+                <div class="metric-card glass-element">
+                  <span class="metric-value">100%</span>
+                  <span class="metric-label">Información controlada</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="glass-card logo-grid-card animate-scale-in">
+              <span class="card-label">Plataformas Analizadas</span>
+              <div class="logo-grid">
+                <div class="logo-item"><img src="Imagenes/Diapositiva 3.1/logo carto.png" alt="Carto Logo"></div>
+                <div class="logo-item"><img src="Imagenes/Diapositiva 3.1/logo giscloud.png" alt="GIS Cloud Logo"></div>
+                <div class="logo-item"><img src="Imagenes/Diapositiva 3.1/logo mapbox.png" alt="Mapbox Logo"></div>
+                <div class="logo-item"><img src="Imagenes/Diapositiva 3.1/logo merginmaps.png" alt="Mergin Maps Logo"></div>
+                <div class="logo-item"><img src="Imagenes/Diapositiva 3.1/logo movisat.png" alt="Movisat Logo"></div>
+                <div class="logo-item"><img src="Imagenes/Diapositiva 3.1/logo qfield.png" alt="QField Logo"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="speaker-notes-content">
+          “2. El problema
+          Descubrimos que ya existían plataformas colaborativas en la nube que permitían conectar diferentes dispositivos a un mismo mapa. Por lo que ya no necesitábamos más pilas de papeles y toda la información la teníamos controlada.”
+        </div>
+      </section>
+
+      <!-- Slide 5: El Problema - Complejidad (Diapositiva 5) -->
+      <section class="slide" id="slide-5" data-title="2. El Problema - Usabilidad">
+        <div class="slide-content split-layout">
+          <div class="text-column">
+            <span class="slide-number">04</span>
+            <h2>El Problema</h2>
+            <h3 class="accent-text">Barreras de Usabilidad</h3>
+            <div class="glass-card text-card animate-slide-up">
+              <p class="warning-text">El gran inconveniente detectado:</p>
+              <div class="quote-container glass-element">
+                <p>“Las plataformas existentes resultan poco intuitivas y complejas para usuarios no especializados en cartografía.”</p>
+              </div>
+              <ul>
+                <li>Curva de aprendizaje empinada para operarios.</li>
+                <li>Pérdida de eficiencia al introducir datos complejos.</li>
+                <li>Falta de personalización para el flujo de trabajo real.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="image-frame animate-scale-in">
+              <img src="Imagenes/Diapositiva 3.2/ejemplo movisat.png" alt="Ejemplo Interfaz Compleja" class="fit-image">
+              <div class="image-overlay-text warning-badge">Interfaz Compleja / Técnica</div>
+            </div>
+          </div>
+        </div>
+        <div class="speaker-notes-content">
+          “Sin embargo, estas plataformas siempre resultaban poco intuitivas y complicadas de manejar para las personas que no estaban dentro del mundo de la cartografía y el territorio.”
+        </div>
+      </section>
+
+      <!-- Slide 6: El Problema - Solución Inicial (Diapositiva 6) -->
+      <section class="slide" id="slide-6" data-title="2. El Problema - Piloto Arbolado">
+        <div class="slide-content split-layout">
+          <div class="text-column">
+            <span class="slide-number">05</span>
+            <h2>El Problema</h2>
+            <h3 class="accent-text">Propuesta: Gestión de Arbolado</h3>
+            <div class="glass-card text-card animate-slide-up">
+              <p>Desarrollamos una solución accesible en Cartagena para la gestión forestal y de arbolado urbano:</p>
+              <ul>
+                <li><strong>Interfaz amigable:</strong> Diseñada para operarios a pie de calle.</li>
+                <li><strong>Registro de campo directo:</strong> Cada trabajador reporta sus tareas y modificaciones al instante.</li>
+                <li><strong>Canal directo:</strong> Conexión inmediata entre oficina y personal de campo.</li>
+              </ul>
+              <p class="highlight-text-accent">Facilitamos de forma drástica el flujo de información.</p>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="image-frame animate-scale-in">
+              <img src="Imagenes/Diapositiva 3.3/ejemplo cartagena.png" alt="Ejemplo Cartagena" class="fit-image">
+              <div class="image-caption">Plataforma implementada en el municipio de Cartagena</div>
+            </div>
+          </div>
+        </div>
+        <div class="speaker-notes-content">
+          “Aprovechando que ya estábamos colaborando con esta empresa nos propusimos utilizar estas plataformas para proponerles un sistema de gestión de arbolado accesible y legible a sus trabajadores .En el que cada operario pudiera anotar su trabajo y las modificaciones que realizaba. Comunicándose directamente con la oficina y el resto del personal.
+          Nosotros realizamos la cartografía y el sistema de gestión personalizado. A ellos les facilitamos el flujo de información.”
+        </div>
+      </section>
+
+      <!-- Slide 7: La Solución - Producto (Diapositiva 7) -->
+      <section class="slide" id="slide-7" data-title="3. La Solución - Producto">
+        <div class="slide-content split-layout">
+          <div class="text-column">
+            <span class="slide-number">06</span>
+            <h2>La Solución</h2>
+            <h3 class="accent-text">Nuestro Producto</h3>
+            <div class="glass-card text-card animate-slide-up">
+              <p>Unificamos la toma de datos y eliminamos la multiplicidad de documentos y los errores de coordinación.</p>
+              <div class="value-proposition glass-element">
+                <h4>Ventaja Competitiva</h4>
+                <p>Nuestra formación y experiencia en <strong>urbanismo y funcionamiento de ciudades</strong> nos permite diseñar sistemas adaptados al flujo real del territorio.</p>
+              </div>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="product-visuals-expanded animate-scale-in">
+              <div class="phone-mockup-frame">
+                <img src="Imagenes/Diapositiva 4.1/mockup telefono.png" alt="Mockup Teléfono" class="visual-mockup-phone">
+                <div class="phone-screen-label">App del Operario</div>
+              </div>
+              <div class="visor-preview-frame">
+                <img src="Imagenes/Diapositiva 4.1/visor municipio.png" alt="Visor Municipio" class="visual-mockup-visor">
+                <div class="image-caption">Visor de control en oficina</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="speaker-notes-content">
+          “3. La solution
+          De esta manera redujimos la multiplicidad de documentos en distintos terminales y los errores de coordinación que acarrea este tipo de funcionamiento. Nuestra ventaja competitiva a la hora de realizar las bases de datos es que conocemos el funcionamiento del urbanismo y las ciudades, lo que nos permite desarrollar un sistema consecuente para la gestión de sus servicios. Que es la base de nuestro producto.”
+        </div>
+      </section>
+
+      <!-- Slide 8: La Solución - Casos de Éxito Condensados (Diapositiva 8) -->
+      <section class="slide" id="slide-8" data-title="3. La Solución - Casos de Éxito">
+        <div class="slide-content split-layout">
+          <div class="text-column">
+            <span class="slide-number">07</span>
+            <h2>La Solución</h2>
+            <h3 class="accent-text">Sistemas en Marcha</h3>
+            <div class="glass-card text-card animate-slide-up">
+              <p>Hacemos legibles los sistemas que componen la ciudad o el territorio para que cualquier persona pueda editar atributos y tomar decisiones estratégicas en tiempo real.</p>
+              <ul>
+                <li><strong>Gestión unificada:</strong> Interfaces a medida de cada servicio municipal.</li>
+                <li><strong>Operaciones directas:</strong> Comunicación entre personal de campo y técnicos de oficina.</li>
+                <li><strong>Datos validados:</strong> Respuestas eficientes y geolocalizadas.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="cases-condensed-row animate-scale-in">
+              <div class="case-item-simple">
+                <img src="Imagenes/Diapositiva 4.2/Salobrena.jpg" alt="Caso Salobreña">
+                <div class="case-label-simple">Limpieza Viaria</div>
+              </div>
+              <div class="case-item-simple">
+                <img src="Imagenes/Diapositiva 4.2/funes.jpg" alt="Caso Funes">
+                <div class="case-label-simple">Arbolado Urbano</div>
+              </div>
+              <div class="case-item-simple">
+                <img src="Imagenes/Diapositiva 4.2/rosa.jpg" alt="Caso Rosa">
+                <div class="case-label-simple">Recogida de Residuos</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="speaker-notes-content">
+          "Con nuestros mapas conseguimos hacer legible los sistemas que componen la ciudad o el territorio para que cualquier persona, desde un técnico a un trabajador de campo pueda editar atributos y tomar decisiones estratégicas en tiempo real. Creando una interfaz de uso específica para cada caso de gestión, como el arbolado, la limpieza viaria o la recogida de residuos. Que son ejemplos que ya tenemos en marcha y funcionando."
+        </div>
+      </section>
+
+      <!-- Slide 9: Escalabilidad (Diapositiva 9) -->
+      <section class="slide" id="slide-5" data-title="4. Escalabilidad">
+        <div class="slide-content split-layout">
+          <div class="text-column">
+            <span class="slide-number">08</span>
+            <h2>Escalabilidad</h2>
+            <h3 class="accent-text">Modelo de Negocio y Crecimiento</h3>
+            <div class="glass-card text-card animate-slide-up">
+              <ul>
+                <li><strong>Cartagena activo:</strong> Núcleo principal de operaciones en constante ampliación.</li>
+                <li><strong>Expansión regional:</strong> Nuevos municipios de la región en fase de desarrollo.</li>
+                <li><strong>Modelo SaaS (Suscripción):</strong> Estructura de costes optimizada e ingresos recurrentes.</li>
+                <li><strong>Sin barreras físicas:</strong> Rápida expansión digital a nivel nacional y ágil despliegue.</li>
+              </ul>
+              <p class="highlight-text">Válido tanto para empresas privadas adjudicatarias de servicios como para administraciones públicas.</p>
+            </div>
+          </div>
+          <div class="visual-column">
+            <div class="image-frame spain-map-card animate-scale-in">
+              <img src="Imagenes/Diapositiva 5/spain.png" alt="Mapa de Expansión España" class="spain-map">
+              <div class="image-caption">municipios cartografiados</div>
+            </div>
+          </div>
+        </div>
+        <div class="speaker-notes-content">
+          “4. Escalabilidad
+          El más importante está en Cartagena, pero tenemos otros municipios de la región en fase de desarrollo. Con planes de implementación posterior a mayor escala. Nuestro producto se basa en un modelo de suscripción, por lo que nuestra estructura de costes está optimizada y no depende de barreras físicas. Estos servicios no son solo válidos para este tipo de empresas, sino que también puede ser conveniente para las administraciones y cualquier tipo de entidad que trabaje con la ciudad y el territorio. Gracias a la estructura digital somos capaces de expandirnos por diferentes localizaciones de forma rápida y ágil.”
+        </div>
+      </section>
+
+      <!-- Slide 10: Cierre y Contacto Centrado (Diapositiva 10) -->
+      <section class="slide" id="slide-6" data-title="5. Cierre">
+        <div class="slide-content final-centered-layout">
+          <div class="final-outer-wrapper animate-scale-in">
+            <img src="Imagenes/Logo Tesela Estudio.png" alt="Tesela Estudio Logo" class="final-logo">
+            
+            <div class="final-centered-card glass-card">
+              <div class="quote-final-text">
+                <p class="quote-large">“Lo que empezó como un problema para la toma de datos a papel y lápiz, lo hemos transformado en una herramienta capaz de coordinar personas, empresas y administraciones públicas para mejorar la gestión de nuestras ciudades y el territorio natural.”</p>
+                <div class="accent-line center-line"></div>
+                <p class="thanks-text">Somos <strong>Tesela Estudio</strong> y gracias por escucharnos.</p>
+              </div>
+              
+              <div class="final-contact-bar">
+                <div class="contact-item-simple glass-element">
+                  <svg class="contact-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.9-1.11 1.63-2.61 2.06-4.56h2.89c-.59 2-1.63 3.69-3.07 4.9m-1.71 1.25c.83 0 1.63-.14 2.37-.39a11.16 11.16 0 0 0-2.37-.86m-2.37.86c.74.25 1.54.39 2.37.39m0-2c.9 0 1.76-.29 2.5-.83a11.1 11.1 0 0 1-2.5 4.83m-2.5-4.83a11.1 11.1 0 0 1-2.5-4.83m-2.5 4.83c1.44-1.21 2.48-2.9 3.07-4.9H5.21c.43 1.95 1.16 3.45 2.06 4.56M3.75 14C3.59 13.36 3.5 12.69 3.5 12s.09-1.36.25-2h3.38c-.08.66-.13 1.32-.13 2s.05 1.34.13 2M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12S6.48 2 12 2m0 2c-.83 0-1.63.14-2.37.39c.84.22 1.63.51 2.37.86c.74-.35 1.53-.64 2.37-.86C13.63 4.14 12.83 4 12 4m-2.06 4.56H7.05c-.59-2-1.63-3.69-3.07-4.9c.9 1.11 1.63 2.61 2.06 4.56m5.81-4.56c1.44 1.21 2.48 2.9 3.07 4.9h-2.89c-.43-1.95-1.16-3.45-2.06-4.56m-3.75 4.56c-.08.66-.14 1.32-.14 2s.06 1.34.14 2h4.56c.08-.66.14-1.32.14-2s-.06-1.34-.14-2"/></svg>
+                  <a href="https://teselaestudio.es" target="_blank" class="contact-link">teselaestudio.es</a>
+                </div>
+                <div class="contact-item-simple glass-element">
+                  <svg class="contact-icon" viewBox="0 0 24 24"><path fill="currentColor" d="m20 8l-8 5l-8-5V6l8 5l8-5m0-2H4c-1.11 0-2 .89-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Z"/></svg>
+                  <a href="mailto:info.tesela.estudio@gmail.com" class="contact-link">info.tesela.estudio@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="speaker-notes-content">
+          "Lo que empezó como un problema nuestro para la toma de datos al empezar con papel y lápiz, lo hemos transformado en una herramienta capaz de coordinar a personas, empresas y administraciones públicas para mejorar la gestión de nuestras ciudades y el territorio natural. Somos Tesela Estudio y gracias por escucharnos"
+        </div>
+      </section>
+
+    </div> <!-- End Slides Wrapper -->
+
+    <!-- Navigation and Controls Bar -->
+    <footer class="presentation-footer glass-element">
+      <div class="footer-left">
+        <button id="btn-prev" class="control-btn" title="Anterior (Flecha Izquierda / Backspace)">
+          <svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M15.41 7.41L14 6l-6 6l6 6l1.41-1.41L10.83 12z"/></svg>
+        </button>
+        <button id="btn-next" class="control-btn" title="Siguiente (Flecha Derecha / Espacio)">
+          <svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+        </button>
+        <div class="slide-indicator-text">
+          Diapositiva <span id="current-slide-num">1</span> de <span id="total-slides-num">10</span>
+        </div>
+      </div>
+      
+      <!-- Progress Bar -->
+      <div class="footer-center">
+        <div class="progress-bar-container">
+          <div id="progress-bar"></div>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <button id="btn-presenter" class="control-btn" title="Modo Presentador (P)">
+          <svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-9 9H3V5h9v7zm9 7H3v-5h18v5zm0-7h-7V5h7v7z"/></svg>
+          <span>Notas</span>
+        </button>
+        <button id="btn-fullscreen" class="control-btn" title="Pantalla Completa (F)">
+          <svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
+        </button>
+      </div>
+    </footer>
+
+  </div> <!-- End Presentation Container -->
+
+
+  <!-- PRESENTER MODE INTERACTIVE DRAWER -->
+  <div id="presenter-drawer" class="glass-element">
+    <div class="presenter-header">
+      <h3>Modo Presentador (Notas de Voz)</h3>
+      <div class="presenter-header-buttons">
+        <button id="btn-popout" class="presenter-header-btn" title="Abrir Notas en Ventana Independiente">
+          <svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83l1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+          Sincronizar Ventana
+        </button>
+        <button id="btn-close-presenter" class="presenter-header-btn">✕</button>
+      </div>
+    </div>
+    <div class="presenter-body">
+      <div class="presenter-body">
+        <div class="presenter-preview-grid">
+          <div class="preview-box">
+            <span class="preview-label">Diapositiva Actual</span>
+            <div class="preview-screen-wrapper">
+              <div id="current-slide-preview" class="preview-screen-box"></div>
+            </div>
+          </div>
+          <div class="preview-box">
+            <span class="preview-label">Siguiente Diapositiva</span>
+            <div class="preview-screen-wrapper">
+              <div id="next-slide-preview" class="preview-screen-box"></div>
+            </div>
+          </div>
+        </div>
+        <div class="presenter-notes-container glass-card">
+          <span class="notes-label">Texto a exponer (Resaltado en Verde en el PDF original):</span>
+          <div id="active-speech-notes">
+            Cargando notas...
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
